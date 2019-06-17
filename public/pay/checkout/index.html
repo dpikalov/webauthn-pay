@@ -13,6 +13,8 @@
     function signUp() {
         const userId = (Math.random().toString(32)).slice(2, 8)
         client.register({username: userId, name: userId})
+            .then (v => console.log(v))
+            .catch(e => console.log(e))
     }
   </script>
 
