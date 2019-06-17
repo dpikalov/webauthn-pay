@@ -1,6 +1,6 @@
 # Webauthn UI and PaymentRequest APIs
 
-## Issue with *Webauthn UI* in context of *PaymentRequest.show()* call (chrome-for-desktop)
+### Issue with *Webauthn UI* in context of *PaymentRequest.show()* call
 
 Webauthn UI ("signUp" button) on stand-alone page **works well**
 * Goto <a href="https://webauthn-pay.herokuapp.com/pay/checkout" target=_blank>/pay/checkout</a>
@@ -13,6 +13,6 @@ Webauthn UI in context of PaymentRequest UI **doesn't work** in **chrome-for-des
 * Click **signUp** button in the opened window
 * e.openWindow (sw.js) fails with: **TypeError: Something went wrong while trying to open the window.**
 
-## Install
+### Install
 `npm install`
 `node index.js`
