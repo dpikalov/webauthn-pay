@@ -1,6 +1,6 @@
 # Webauthn UI and PaymentRequest APIs
 
-### Issue with *Webauthn UI* in context of *PaymentRequest.show()* call
+### Issue with Webauthn UI in context of PaymentRequest.show() call
 
 Webauthn UI ("signUp" button) on stand-alone page **works well**
 * Goto <a href="https://webauthn-pay.herokuapp.com/pay/checkout" target=_blank>/pay/checkout</a>
