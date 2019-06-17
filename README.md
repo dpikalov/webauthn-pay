@@ -12,7 +12,7 @@ Webauthn UI in context of PaymentRequest UI **doesn't work** in **chrome-for-des
 * Goto https://webauthn-pay.herokuapp.com
 * Press **Pay now** to open PaymentRequest UI
 * Click **signUp** button in the opened window
-* e.openWindow (sw.js) fails with: **TypeError: Something went wrong while trying to open the window.**
+* Chrome-for-desktop doesn't show Webauthn UI
 
 ### Install
 `npm install`
