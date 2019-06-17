@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout page</title>
+
+  <script src="webauthn.js"></script>
+  <script>
+    //
+    const client = new WebAuthnClient({ pathPrefix: '/webauthn' })
+
+    function signUp() {
+        const userId = (Math.random().toString(32)).slice(2, 8)
+        client.register({username: userId, name: userId})
+    }
+  </script>
+
+</head>
+<body>
+  <div id="contents">
+    <h1>Webauthn registration page</h1>
+    <p><button onclick="signUp()">signUp</button></p>
+  </div>
+  <pre id="msg"></pre>
+</body>
+</html>

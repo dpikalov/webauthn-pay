@@ -1,0 +1,22 @@
+{
+  "name": "webauthn-pay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/webauthn-pay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "webauthn": "^0.1.1"
+  }
+}

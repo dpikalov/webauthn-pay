@@ -1,0 +1,13 @@
+{
+  "name"         : "Webauth-Pay",
+  "short_name"   : "Webauth-Pay",
+  "icons": [{
+    "src": "icon.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }],
+  "serviceworker": {
+    "src"      : "sw.js",
+    "use_cache": false
+  }
+}
