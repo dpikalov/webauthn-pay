@@ -7,7 +7,7 @@ Webauthn UI ("signUp" button) on stand-alone page **works well**
 
 * Click **signUp** button
 
-Webauthn UI in context of PaymentRequest UI **doesn't work** in chrome-for-desktop **but it works for e.g. chrome-for-android**
+Webauthn UI in context of PaymentRequest UI **doesn't work** in **chrome-for-desktop** but it works for e.g. **chrome-for-android**
 
 * Press **Pay now** to open PaymentRequest UI
 * Click **signUp** button in the opened window
