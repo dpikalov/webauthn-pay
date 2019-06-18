@@ -15,5 +15,8 @@ Webauthn UI in context of PaymentRequest UI **doesn't work** in **chrome-for-des
 * Chrome-for-desktop doesn't show Webauthn UI
 
 ### Install
+Replace `https://webauthn-pay.herokuapp.com` with `http://localhost:3000`
+
 `npm install`
+
 `node index.js`
