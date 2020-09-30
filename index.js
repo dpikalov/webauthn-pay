@@ -8,7 +8,8 @@ app.use(session({secret: 'secret-vwhrsm8moed'}));
 app.use(express.json());
 
 // payment-method-side service
-app.head('/pay', function(req, res) {
+//app.head('/pay', function(req, res) {
+app.get('/pay', function(req, res) {
   res.set('Link', '<payment-manifest.json>; rel="payment-method-manifest"');
   res.status(200).send('');
 });
