@@ -2,5 +2,5 @@
   "default_applications": [
     "https://webauthn-pay.herokuapp.com/pay/payment-app.json"
   ],
-  "supported_origins": "*"
+  "supported_origins": ["https://webauthn-pay.herokuapp.com"]
 }
