@@ -7,7 +7,8 @@ Webauthn UI ("signUp" button) on stand-alone page **works well**
 
 * Click **signUp** button
 
-Webauthn UI in context of PaymentRequest UI **doesn't work** in **chrome-for-desktop** but it works for e.g. **chrome-for-android**
+**Chrome-for-desktop doesn't show** Webauthn UI when **navigator.credentials.create()** is called in PaymentRequest window. 
+But it works in e.g. **chrome-for-android**
 
 * Goto https://webauthn-pay.herokuapp.com
 * Press **Pay now** to open PaymentRequest UI
@@ -15,5 +16,8 @@ Webauthn UI in context of PaymentRequest UI **doesn't work** in **chrome-for-des
 * Chrome-for-desktop doesn't show Webauthn UI
 
 ### Install
+Replace `https://webauthn-pay.herokuapp.com` with `http://localhost:3000`
+
 `npm install`
+
 `node index.js`
